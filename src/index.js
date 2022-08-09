@@ -1,6 +1,6 @@
 import { createServer } from 'http';
 import fetch from 'node-fetch';
-class Rustavi {
+export default class Rustavi {
     async get(url, headers) {
         const response = await fetch(url, {
             method: 'GET',
