@@ -11,6 +11,9 @@
     "type": "git",
     "url": "https://github.com/GrimmWolfff/Rustavi.js"
   },
+  "publishConfig": {
+    "registry":"https://www.npmjs.com/package/@maver1ck/rustavi"
+  },
   "keywords": [],
   "author": "Ilia Sichinava",
   "license": "ISC",
