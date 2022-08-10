@@ -1,2 +1,6 @@
-GET http://localhost:8001/
+PUT http://localhost:8000/car
 Content-Type: application/json
+
+{
+    "car":"bmw"
+}
