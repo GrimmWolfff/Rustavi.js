@@ -1,5 +1,5 @@
 import { createServer } from 'http';
-import Rustavi from '../src/index.js';
+import Rustavi from 'rustavi';
 
 const server = createServer(( req, res ) => {
     if(req.url == '/' && req.method == 'GET') {
